@@ -1,0 +1,45 @@
+.Nasa-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+}
+
+.Nasa-card-image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+  background-color: #eceff1;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  transition: transform 250ms;
+}
+
+.Nasa-card-image:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #333;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 1.5px #666;
+}
+
+.button-liked {
+  background-color: lightblue;
+  color: white;
+  transform: translateY(2px);
+}

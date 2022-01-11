@@ -1,0 +1,12 @@
+.App {
+  font-family: Verdana;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
